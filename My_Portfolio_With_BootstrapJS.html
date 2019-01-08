@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<title>Ben Opdyke | Software Developer | Hot Pants</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- /Required meta tags -->
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/My_portfolio_styles.css">
+		<!-- /Bootstrap CSS -->	
+		
+		<!--Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<!--/Bootstrap JS -->
+	</head>
+	
+	<body>
+		<!-- Home -->
+		<header id="top" class="header">
+		
+		<!-- Button trigger modal -->
+		<button type="button" style="float:right" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#about_me">
+		More stuff
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="about_me" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Random Stuff</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+				<div class="modal-body">
+					<p>This is my blog where I write about Michigan football.  I'm proud of the last two articles, but be warned, I use more cursing than is probably necessary</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<a href="https://hotat-ben.blogspot.com/2018/11/the-most-tortured-college-football.html" class="btn btn-primary" role="button">My Passion</a>
+						
+				</div>
+				</div>
+			</div>
+			</div>
+        
+		<div class="text-vertical-center">
+            <h1>Ben Opdyke++</h1>
+            <h2>Certified Fresh</h2>
+            <p>
+                <a href="#Development" class="btn btn-dark btn-lg">Skills</a>
+                <a href="#HumanSkills" class="btn btn-dark btn-lg">Portfolio</a>
+                <a href="#Experience" class="btn btn-dark btn-lg">Experience</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/ben-opdyke-9281591a/" target="_blank" class="btn btn-dark btn-lg">LinkedIn <span class="glyphicon glyphicon-new-window"></span></a>
+                <a href="https://github.com/Temujin4480" target="_blank" class="btn btn-dark btn-lg">GitHub <span class="glyphicon glyphicon-new-window"></span></a>
+                <a href="/portfolio.html" class="btn btn-dark btn-lg">Projects (Coming Soon)</a>
+            </p>
+
+        </div>
+		</header>
+		<!-- /Home -->
+			
+		<!-- main content -->
+		<section id="bio">	
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h3>Skills</h3>
+						<center>Version Control</center>
+						<img class="img-fluid" src="./images/My_portfolio/Git2.png" class="center" alt="Version Control">
+						<center>Web Development</center>
+						<img class="img-fluid" src="./images/My_portfolio/HTML_CSS.png" class="center" alt="Web Development">
+					</div>
+					<div class="col-sm">
+						<h3>Portfolio</h3>
+						<center>Coming Soon</center>
+					</div>
+					<div class="col-sm">
+						<h3>Experience</h3>
+						<center>2005-2010</center>
+							<img class="img-fluid" src="./images/My_portfolio/YMCA.jpg" class="center" style="width:333px;height:175px;" alt="YMCA">
+							<a data-target="#modalYMCA" role="button" data-toggle="modal" class="btn btn-warning">Summary</a>
+								<!-- Code from Jeffrey Luxmore's page that I can edit and use later to give more background info on myself:
+								<div class="modal-body">
+                                        <p>
+                                            </p><h3>Model. View. Controller. Check.</h3>
+                                            Want to parse some XML? Import this library! Want to add user authentication? Add that library! 
+                                            .NET seems to do it all these days! 
+                                        <p></p>
+                                        <p>
+                                            Whether it's a code-first approach on a completely new application or fixing bugs in an existing application, 
+                                            I enjoy working with C# and Visual Studio. 
+                                        </p>
+                                        
+                                </div>
+								End of code-->
+						<center>2010-2016</center>
+							<img class="img-fluid" src="./images/My_portfolio/Dara Academy.jpg" class="center" style="width:333px;height:175px;" alt="Dara Academy">
+							<a data-target="#modalDara" role="button" data-toggle="modal" class="btn btn-warning">Summary</a>
+						<center>2016-Current</center>
+							<img class="img-fluid" src="./images/My_portfolio/Tech_Academy.jpg" class="center" style="width:333px;height:175px;" alt="Private Teaching and Coding">
+							<a data-target="#modalTech" role="button" data-toggle="modal" class="btn btn-warning">Summary</a>
+					</div>
+				</div>
+			</div>	
+		</section>	
+	
+	
+	
+	
+	</body>
+</html>
